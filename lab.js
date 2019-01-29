@@ -27,8 +27,19 @@ var sentence = "I'm not a number, I'm fairly sure I'm a String"
 
 
 // create a variable called sentence_length that contains the length of the sentence
-var sentence_length[].length;
+var sentence_length = sentence.length;
 
 // BONUS
 // Research how to create a JSON object called person
 // Use the person object tests to add the correct data
+
+var person = { first_name:first_name, "age":30, "city":"New York"};
+person.first_name = first_name;
+
+
+var num1 = prompt("enter a number");
+var operator = prompt("enter an operator");
+var num2 = prompt("enter another number");
+
+var result = eval(num1+operator+num2);
+alert(result);
